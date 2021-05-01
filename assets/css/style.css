@@ -363,6 +363,10 @@ footer .cv-pdf i:hover {
     margin-bottom: 30px;
 }
 
+.previous-role {
+    color:white;
+}
+
 /*--------------------------------------------Contact*/
 
 .contact-heading {
