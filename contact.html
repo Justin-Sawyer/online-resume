@@ -95,18 +95,29 @@
             </div>
         </header>
 
-        <section class="container-fluid en">
+        <section class="container-fluid">
             <div class="row bg-color-contact">
                 <div>
-                    <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
-                    <h5 class="uppercase text-center">Let's work together</h5>
+                    <h3 class="contact-heading uppercase text-center en">Got a project in mind?</h3>
+                    <h3 class="contact-heading uppercase text-center fr">Vous avez un projet en tête?</h3>
+                    <h5 class="uppercase text-center en">Let's work together</h5>
+                    <h5 class="uppercase text-center fr">Travaillons ensemble</h5>
                 </div>
-                <div class="center-form">
+                <div class="center-form en">
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                         <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                         <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
                         <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                    </form>
+                </div>
+
+                <div class="center-form fr">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Nom" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Description du projet" required></textarea>
+                        <button type="submit" class="btn btn-secondary center-block">Envoyer votre demande de projet</button>
                     </form>
                 </div>
             </div>
