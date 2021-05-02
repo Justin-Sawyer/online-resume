@@ -9,6 +9,7 @@ function sendMail(contactForm) {
             console.log("SUCCESS", response);
             $("#successOrFailure-en").text("Your mail has been sent.")
             $("#successOrFailure-fr").text("Votre mail a été reçu.")
+            $('#contactForm').trigger("reset");
         },
         function(error) {
             console.log("FAILED", error);
