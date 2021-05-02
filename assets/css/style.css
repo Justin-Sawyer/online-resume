@@ -26,8 +26,8 @@
     background-color: #ffffff;
 }
 
-.bg-color-conferences {
-    background-color: #f4f4f4;
+.bg-color-portfolio {
+    background-color: #e74c3c;
 }
 
 .bg-color-groups {
@@ -360,6 +360,10 @@ footer .cv-pdf i:hover {
     background: #fafafa;
 }
 
+.timeline-item-active::after {
+    background: #d9a81d;
+}
+
 .history-heading {
     color: #fafafa;
     margin-bottom: 50px;
@@ -399,7 +403,7 @@ button[type="submit"] {
 
 /*--------------------------------------------Map*/
 div#map {
-    min-height: 360px;
+    min-height: 250px;
 }
 
 /*--------------------------------------------Media Queries*/

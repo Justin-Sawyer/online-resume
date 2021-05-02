@@ -7,17 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-        <script type="text/javascript">
-            (function() {
-                emailjs.init("user_enSK9cNbO7MRSFtgsJkdH");
-            })();
-        </script>
-
-        <title>Justin Sawyer | Contact</title>
+        <title>Justin Sawyer | Interests</title>
     </head>
 
     <body>
@@ -98,31 +88,135 @@
         </header>
 
         <section class="container-fluid">
-            <div class="row bg-color-contact">
-                <div>
-                    <h3 class="contact-heading uppercase text-center en">Got a project in mind?</h3>
-                    <h3 class="contact-heading uppercase text-center fr">Vous avez un projet en tête?</h3>
-                    <h5 class="uppercase text-center en">Let's work together</h5>
-                    <h5 class="uppercase text-center fr">Travaillons ensemble</h5>
-                    <h5 class="uppercase text-center en" id="successOrFailure-en"></h5>
-                    <h5 class="uppercase text-center fr" id="successOrFailure-fr"></h5>
+            <div class="row">
+                <div class="col-md-4 bg-color-portfolio section-column">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="history-heading uppercase en">Portfolio History</h3>
+                            <h3 class="history-heading uppercase fr">Historique du portefeuille</h3>
+                        </div>
+                    </div>
+                    <!--<div id="map"></div>-->
+                    <div class="history-items">
+                        <div class="timeline-item" dates="08/2020 - 08/2021">
+                            <h4><a class="previous-role" href="portfolio-project-1.html">Code Institute</a></h4>
+                            <p>Four Milestone Projects created for the diploma</p>
+                            <p>2020 - 2021</p>
+                        </div>
+                        <div class="timeline-item timeline-item-active" dates="02/2012 - 12/2019">
+                            <h4><a class="previous-role" style="color:#d9a81d" href="portfolio-project-2.html">The Travel Expert, Nice, FR</a></h4>
+                            <p style="color:#d9a81d">Three websites created for the company</p>
+                            <p style="color:#d9a81d">2012 - 2019</p>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="center-form en">
-                    <form onsubmit="return sendMail(this);" id="contactForm">
-                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-                        <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
-                    </form>
-                </div>
+                
+                <div class="col-md-8 bg-color-groups section-column">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="section-heading uppercase">The Travel Expert</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2  col-md-2">
+                                    <i class="three-reasons-icon fa fa-list-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-xs-10 col-sm-10">
+                                    <h4 class="three-reasons-heading uppercase">The Travel Expert</h4>
+                                    <ul>
+                                        <li class="en">
+                                            Tourism website for sightseeing tours of the South of France
+                                        </li>
+                                        <li class="fr">
+                                            Site de tourisme pour les visites touristiques du sud de la France
+                                        </li>
+                                        <li>
+                                            Rapidweaver / HTML / CSS
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <a href="http://www.thetravelexpertnice.com/" target="_blank">The Travel Expert</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2  col-md-2">
+                                    <i class="three-reasons-icon fa fa-list-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-xs-10 col-sm-10">
+                                    <h4 class="three-reasons-heading uppercase">Sunny Days Prestige Travel</h4>
+                                    <ul>
+                                        <li class="en">
+                                            Multilingual tourism website for sightseeing tours of the South of France.
+                                        </li>
+                                        <li class="fr">
+                                            Site de tourisme multilingue pour les visites touristiques du sud de la France.
+                                        </li>
+                                        <li>
+                                            Rapidweaver / HTML / CSS
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <a href="https://www.sunnydaysnice.com/" target="_blank">SUNNYdays Prestige Travel</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2  col-md-2">
+                                    <i class="three-reasons-icon fa fa-list-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-xs-10 col-sm-10">
+                                    <h4 class="three-reasons-heading uppercase">SUNNYdays 4x4</h4>
+                                    <ul>
+                                        <li class="en"> 
+                                            Off-road Academy.
+                                        </li>
+                                        <li class="fr"> 
+                                            Académie 4x4.
+                                        </li>
+                                        <li>
+                                            Rapidweaver / HTML / CSS
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <a href="http://www.sunnydaysnice4x4.com/" target="_blank">Sunny Days 4x4</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2  col-md-2">
+                                    <i class="three-reasons-icon fa fa-list-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-xs-10 col-sm-10">
+                                    <h4 class="three-reasons-heading uppercase">Milestone Project 4</h4>
+                                    <ul>
+                                        <li class="en">
+                                            Coming soon!
+                                        </li>
+                                        <li class="fr">
+                                            Bientôt disponible!
+                                        </li>
+                                        <li>
+                                            HTML / CSS / JavaScript / Python / MongoDB / Django
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <!--<a href="https://www.meetup.com/NYCIOT/" target="_blank">IoT Nation</a>--
+                                    </p>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
 
-                <div class="center-form fr">
-                    <form onsubmit="return sendMail(this);">
-                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Nom" required/>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Description du projet" required></textarea>
-                        <button type="submit" class="btn btn-secondary center-block">Envoyer votre demande de projet</button>
-                    </form>
                 </div>
             </div>
         </section>
@@ -179,9 +273,10 @@
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByH5255XkwvLUr8aL4KEvEaLWqrWYhdI0&callback=initMap"></script>
         <script src="assets/js/langs.js"></script>
-        <script src="assets/js/sendEmail.js"></script>
-
+        <script src="assets/js/maps.js"></script>
     </body>
 
 </html>
