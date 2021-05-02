@@ -104,6 +104,7 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    padding-left: 15px;
 }
 
 
@@ -191,6 +192,11 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+.previous-role:hover {
+    text-decoration: none;
+    color:#d9a81d;
 }
 
 
